@@ -9,7 +9,7 @@ const Country = ({ country }) => {
 
     const entries = Object.values(l);
     return entries.map((languages) => {
-      return <ul>{languages}</ul>;
+      return <p>{languages}</p>;
     });
   };
   const hookb = () => {
