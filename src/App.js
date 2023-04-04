@@ -61,7 +61,10 @@ const App = () => {
   return (
     <div className="App">
       <div>
-        find countries{" "}
+        <h1>CountryAPI</h1>
+      </div>
+      <div>Enter your country of choice: </div>
+      <div>
         <input
           type="text"
           value={search}
