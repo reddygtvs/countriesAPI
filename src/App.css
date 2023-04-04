@@ -5,8 +5,8 @@ html {
   width: 100%;
 }
 
-.alignLeft {
-  align-items: left;
+.big {
+  font-size: 30px;
 }
 
 .App {
@@ -21,6 +21,9 @@ div {
 }
 * {
   background-color: #faf9f6;
+}
+.country {
+  background-color: aquamarine;
 }
 /* .App-header {
   background-color: #282c34;

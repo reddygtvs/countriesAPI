@@ -60,7 +60,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <div>
+      <div className="big">
         <h1>CountryAPI</h1>
       </div>
       <div>Enter your country of choice: </div>
