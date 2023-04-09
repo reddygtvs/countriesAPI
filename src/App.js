@@ -60,10 +60,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="big">
-        <h1>CountryAPI</h1>
-      </div>
-      <div>Enter your country of choice: </div>
+      <h1 className="big">CountryAPI</h1>
+
+      <h2>Enter your country of choice: </h2>
       <div>
         <input
           type="text"
