@@ -10,11 +10,16 @@ html {
 }
 
 .App {
+  display: grid;
   place-items: center;
-  text-align: center;
-
+  text-align: left;
   border: 20px;
-  margin-top: 20px;
+}
+.img {
+  background-color: aquamarine;
+}
+.output {
+  text-align: center;
 }
 div {
   margin-top: 20px;

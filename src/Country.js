@@ -32,10 +32,11 @@ const Country = ({ country }) => {
   useEffect(hookb, []);
   const weather = () => {
     return (
-      <div>
+      <div className="output">
         <h2>Weather in {country.name.common}</h2>
         <p>Temperature: {data.current.temp} Celsius</p>
         <img
+          className="img"
           src={`https://openweathermap.org/img/wn/${data.current.weather[0].icon}@2x.png`}
         />
         <p>Wind: {data.current.wind_speed} m/s </p>
@@ -44,10 +45,10 @@ const Country = ({ country }) => {
   };
 
   return (
-    <div>
+    <div className="output">
       <h1>{country.name.common}</h1>
       <p>Capital: {country.capital[0]}</p>
-      <p>Area: {country.area} </p>
+      <p>Area: {country.area} Sq.km</p>
       <h3>Languages:</h3>
       {language()}
       <img src={country.flags.png} />
