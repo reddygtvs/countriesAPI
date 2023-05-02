@@ -42,7 +42,9 @@ main {
 .country {
   background-color: aquamarine;
 }
-
+#output {
+  margin: 20px;
+}
 .App-link {
   color: #61dafb;
 }
@@ -51,6 +53,9 @@ a {
   margin-left: 1.5vw;
   margin-right: 1.5vw;
   transition: transform 0.5s ease;
+}
+a:hover {
+  transform: translateY(-3px);
 }
 #footer:hover {
   color: magenta;

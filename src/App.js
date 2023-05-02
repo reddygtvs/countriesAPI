@@ -73,7 +73,7 @@ const App = () => {
             onChange={(e) => setSearch(e.target.value)}
           />
         </div>
-        <div>{output()}</div>
+        <div id="output">{output()}</div>
       </main>
       <Footer />
     </div>
