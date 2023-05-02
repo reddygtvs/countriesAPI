@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="Footer">
       <a
         id="footer"
-        href="https://github.com/reddygtvs/homepage"
+        href="https://tusharreddy.com"
         target="_blank"
         rel="noopener noreferrer"
       >
