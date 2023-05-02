@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Country from "./Country";
+import Footer from "./Footer";
 
 const App = () => {
   const [countries, setCountries] = useState([]);
@@ -60,17 +61,19 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="big">CountryAPI</h1>
-
-      <h2>Enter your country of choice: </h2>
-      <div>
-        <input
-          type="text"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-      </div>
-      <div>{output()}</div>
+      <header className="big">CountryAPI</header>
+      <main>
+        <h2>Enter your country of choice: </h2>
+        <div>
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </div>
+        <div>{output()}</div>
+      </main>
+      <Footer />
     </div>
   );
 };
