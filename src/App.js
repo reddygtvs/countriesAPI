@@ -61,7 +61,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <header className="big">CountryAPI</header>
+      <header className="nav">
+        <h1 id="basic">CountryAPI</h1>
+      </header>
       <main>
         <h2>Enter your country of choice: </h2>
         <div>

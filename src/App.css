@@ -1,19 +1,33 @@
 body,
 html {
   font-family: "Montserrat", sans-serif;
-  height: 100%;
-  width: 100%;
+  display: grid;
+  margin: 0;
 }
 
-.big {
-  font-size: 50px;
+.nav {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  width: 100vw;
+  background: aquamarine;
 }
-
+#basic {
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+  font-size: 2vh;
+  background: aquamarine;
+}
 .App {
   display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
   place-items: center;
-  text-align: left;
-  border: 20px;
+}
+main {
+  display: grid;
+  place-items: center;
 }
 .img {
   background-color: aqua;
@@ -21,9 +35,7 @@ html {
 .output {
   text-align: center;
 }
-div {
-  margin-top: 20px;
-}
+
 * {
   background-color: #faf9f6;
 }
@@ -33,4 +45,25 @@ div {
 
 .App-link {
   color: #61dafb;
+}
+a {
+  display: inline-flex;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  transition: transform 0.5s ease;
+}
+.Footer {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  place-items: center;
+  background: #8bd3dd;
+}
+
+#footer {
+  padding: 1.5rem;
+  font-size: 2vh;
+  text-decoration: none;
+  color: black;
+  background: #8bd3dd;
 }
